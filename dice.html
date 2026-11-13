@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111827">
+    <title>Rolling Dice</title>
+    <link rel="stylesheet" href="./dice.css">
+    <script src="./dice.js" defer></script>
+</head>
+<body>
+    <main class="game">
+        <p class="eyebrow">A little luck goes a long way</p>
+        <h1>Roll the dice</h1>
+        <p class="intro">Tap the button and see what you get.</p>
+
+        <div class="die" id="die" role="img" aria-label="Die showing 1">
+            <div class="pips" id="pips" aria-hidden="true"></div>
+        </div>
+
+        <p class="result" id="result" aria-live="polite" aria-atomic="true">Ready when you are</p>
+        <button class="roll-button" id="roll-button" type="button">Roll dice</button>
+    </main>
+</body>
+</html>
